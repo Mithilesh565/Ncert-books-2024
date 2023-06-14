@@ -196,3 +196,14 @@
 </html>
 <h3> this site uder copyright 
 its made by mithilesh kumawat antroli sanga </h3>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>YouTube Button</title>
+</head>
+<body>
+    <a href="https://youtube.com/@CRICKET_WORLD_69">
+        <button>Go to YouTube</button>
+    </a>
+</body>
+</html>
