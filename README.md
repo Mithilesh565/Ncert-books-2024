@@ -159,26 +159,39 @@
   </table>
 </body>
 </html>
-<!DOCTYPE html>
+      <!DOCTYPE html>
 <html>
 <head>
-  <style>
-    .next-button {
-      background-color: #4CAF50;
-      border: none;
-      color: white;
-      padding: 15px 32px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      margin: 4px 2px;
-      cursor: pointer;
-    }
-  </style>
+    <title>Live Clock</title>
+    <script>
+        function updateClock() {
+            var currentTime = new Date();
+            var hours = currentTime.getHours();
+            var minutes = currentTime.getMinutes();
+            var seconds = currentTime.getSeconds();
+            
+            // Add leading zeros if necessary
+            hours = (hours < 10 ? "0" : "") + hours;
+            minutes = (minutes < 10 ? "0" : "") + minutes;
+            seconds = (seconds < 10 ? "0" : "") + seconds;
+            
+            var clockElement = document.getElementById("clock");
+            clockElement.innerHTML = hours + ":" + minutes + ":" + seconds;
+        }
+
+        // Update the clock every second
+        setInterval(updateClock, 1000);
+    </script>
 </head>
 <body>
-  <a href="https://ncert.nic.in/textbook.php" class="next-button">Next</a>
+    <h1>Live Clock</h1>
+    <div id="clock"></div>
+</body>
+</html>
+
+
+  <style>
+ <a href="https://ncert.nic.in/textbook.php" class="next-button">Next</a>
 </body>
 </html>
 <h3> this site uder copyright 
