@@ -156,38 +156,7 @@
       <td>Class 10</td>
       <td><a href="https://ncert.nic.in/textbook.php" class="download-btn">Download</a></td>
     </tr>
-  </table>
-</body>
-</html>
-      <!DOCTYPE html>
-<html>
-<head>
-    <title>Live Clock</title>
-    <script>
-        function updateClock() {
-            var currentTime = new Date();
-            var hours = currentTime.getHours();
-            var minutes = currentTime.getMinutes();
-            var seconds = currentTime.getSeconds();
-            
-            // Add leading zeros if necessary
-            hours = (hours < 10 ? "0" : "") + hours;
-            minutes = (minutes < 10 ? "0" : "") + minutes;
-            seconds = (seconds < 10 ? "0" : "") + seconds;
-            
-            var clockElement = document.getElementById("clock");
-            clockElement.innerHTML = hours + ":" + minutes + ":" + seconds;
-        }
 
-        // Update the clock every second
-        setInterval(updateClock, 1000);
-    </script>
-</head>
-<body>
-    <h1>Live Clock</h1>
-    <div id="clock"></div>
-</body>
-</html>
 
 
   <style>
@@ -196,12 +165,8 @@
 </html>
 <h3> this site uder copyright 
 its made by mithilesh kumawat antroli sanga </h3>
-<!DOCTYPE html>
-<html>
-<head>
     <title>YouTube Button</title>
 </head>
-<body>
     <a href="https://youtube.com/@CRICKET_WORLD_69">
         <button>Go to YouTube</button>
     </a>
